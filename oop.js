@@ -1,33 +1,33 @@
 //inheritance 
 
-// class animal{
-//     constructor(name){
-//         this.name = name 
-//     }
+class animal{
+    constructor(name){
+        this.name = name 
+    }
 
-//     voice(){
-//         console.log(`kire ${this.name}`);
+    voice(){
+        console.log(`kire ${this.name}`);
         
-//     }
-// }
+    }
+}
 
-// class dog extends animal{
-//     constructor(name,color){
-//         super(name)
-//         this.color = color
-//     }
-//     voice(){
+class dog extends animal{
+    constructor(name,color){
+        super(name)
+        this.color = color
+    }
+    voice(){
         
-//         super.voice()
-//         console.log("valo asos");
-//         console.log(`${this.color}`);
+        super.voice()
+        console.log("valo asos");
+        console.log(`${this.color}`);
         
         
-//     }
-// }
+    }
+}
 
-// const kutta = new dog("golden","black")
-// kutta.voice()
+const kutta = new dog("golden","black")
+kutta.voice()
 
 
 
